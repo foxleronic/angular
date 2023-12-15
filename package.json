@@ -1,6 +1,7 @@
 {
   "name": "course-project",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "homepage": "https://foxleronic.github.io/angular/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
