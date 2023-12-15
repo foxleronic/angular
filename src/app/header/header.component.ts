@@ -9,7 +9,11 @@ export class HeaderComponent {
   @Output() featureSelected = new EventEmitter<string>();
   collapsed: boolean;
 
-  onSelect(feature: string) {
+  /**
+   * Emits the selected feature.
+   * @param feature - The feature to be emitted.
+   */
+  onSelect(feature: string): void {
     this.featureSelected.emit(feature);
   }
 }
