@@ -1,13 +1,14 @@
 {
   "name": "course-project",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "homepage": "https://foxleronic.github.io/angular/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "ng build --prod",
+    "predeploy": "ng build --base-href 'https://foxleronic.github.io/'",
     "deploy": "gh-pages -d dist/course-project"
   },
   "private": true,
