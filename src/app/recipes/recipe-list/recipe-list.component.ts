@@ -26,6 +26,10 @@ export class RecipeListComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  /**
+   * Emits the selected recipe.
+   * @param recipe - The selected recipe.
+   */
   onRecipeSelected(recipe: Recipe) {
     this.recipeWasSelected.emit(recipe);
   }
